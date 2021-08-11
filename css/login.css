@@ -1,0 +1,38 @@
+.login-bg {
+    background-color: rgba(136, 126, 126, 0.04);
+    width: 600px;
+    height: 500px;
+    margin: 4em auto;
+    position: relative;
+
+}
+.login-bg .image{
+    max-width: 200px;
+    width: 90%;
+    height: inherit;
+    background-color: #fd7e14;
+    padding-left: 40px;
+    position: relative;
+}
+.login-bg .form{
+    max-width: 300px;
+    width: 90%;
+    height: inherit;
+    background-color: #1e2833;
+    transform: translate(-50%, -50%);
+    position: relative;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    float: right;
+}
+.cardIcon {
+    width: 200px;
+    height: auto;
+}
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
